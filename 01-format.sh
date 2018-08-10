@@ -1,2 +1,2 @@
 #!/bin/bash
-hdfs  --config ./conf namenode -format
+hdfs  --config $(pwd)/$1/conf namenode -format

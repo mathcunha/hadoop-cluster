@@ -22,6 +22,10 @@
         <value>datanode-01</value>
     </property>
 	<property>
+        <name>dfs.datanode.data.dir</name>
+        <value>file:///home/vagrant/hadoop/datanode-01</value>
+    </property>
+	<property>
         <name>dfs.replication</name>
         <value>3</value>
     </property>
