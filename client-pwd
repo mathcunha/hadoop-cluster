@@ -1,0 +1,9 @@
+#!/bin/bash
+source ./env.sh
+hadoop --config $NODE_PATH/conf org.apache.hadoop.yarn.applications.distributedshell.Client \
+	-debug \
+	-shell_command find \
+	-shell_args '`pwd`' \
+	-jar ${HADOOP_HOME}/share/hadoop/yarn/*-distributedshell-*.jar \
+#	-container_memory 350 \
+#	-master_memory 350

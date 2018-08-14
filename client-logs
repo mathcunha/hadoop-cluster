@@ -1,0 +1,3 @@
+#!/bin/bash
+source ./env.sh
+/usr/local/hadoop/hadoop-2.9.1/bin/yarn --config $NODE_PATH/conf logs -applicationId application_1534256039465_0005
