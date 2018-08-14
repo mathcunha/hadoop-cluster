@@ -1,0 +1,3 @@
+#!/bin/bash
+source ./env.sh
+yarn-daemon.sh --config $NODE_PATH/conf start nodemanager
