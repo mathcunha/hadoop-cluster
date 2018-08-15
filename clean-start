@@ -1,0 +1,5 @@
+#!/bin/bash
+#rm -rf ~/hadoop/
+#./01-format.sh namenode-01
+./start-namenode namenode-01;./start-datanode datanode-01;./start-datanode datanode-02
+./start-resourcemanager resource-manager;./start-nodemanager nodemanager-01;./start-nodemanager nodemanager-02
