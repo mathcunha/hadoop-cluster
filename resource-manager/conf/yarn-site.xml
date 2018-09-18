@@ -13,10 +13,10 @@
   limitations under the License. See accompanying LICENSE file.
 -->
 <configuration>	
-	<property>
+	<!--property>
         <name>yarn.resourcemanager.bind-host</name>
         <value>192.168.33.10</value>
-    </property>
+    </property-->
 	<property>
         <name>yarn.resourcemanager.scheduler.class</name>
         <value>org.apache.hadoop.yarn.server.resourcemanager.scheduler.fair.FairScheduler</value>

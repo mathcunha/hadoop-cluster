@@ -42,6 +42,10 @@
     <value>hive</value>
     <description>password to use against metastore database</description>
   </property>
+  <property>
+    <name>hive.server2.logging.operation.log.location</name>
+	<value>/vagrant/hadoop-cluster/hive/logs</value>
+  </property>
   <!--property>
     <name>hive.exec.scratchdir</name>
     <value>hdfs://192.168.33.10:9000/tmp/hive_tmp</value>

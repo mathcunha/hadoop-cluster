@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
 <!--
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,15 +18,15 @@
 
 <configuration>
 	<property>
-        <name>fs.defaultFS</name>
-        <value>hdfs://192.168.33.10:9000</value>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
+    </property>
+	<!--property>
+        <name>mapreduce.jobtracker.address</name>
+        <value>192.168.33.10:8030</value>
     </property>
 	<property>
-        <name>hadoop.proxyuser.vagrant.groups</name>
-        <value>*</value>
-    </property>
-	<property>
-        <name>hadoop.proxyuser.vagrant.hosts</name>
-        <value>*</value>
-    </property>
+        <name>mapreduce.map.java.opts</name>
+        <value>-Xmx512M</value>
+    </property-->
 </configuration>
