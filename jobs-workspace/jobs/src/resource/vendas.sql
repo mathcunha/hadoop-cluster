@@ -1,0 +1,12 @@
+CREATE TABLE venda (id INT, vendedor STRING, vendas INT);
+INSERT INTO venda VALUES (0, "Serena", 3625);
+INSERT INTO venda VALUES (1, "Nadal" ,5174);
+INSERT INTO venda VALUES (2, "Serena" ,893);
+INSERT INTO venda VALUES (3, "Serena" ,2139);
+INSERT INTO venda VALUES (4, "Sharapova" ,3581);
+INSERT INTO venda VALUES (5, "Roger" ,1039);
+INSERT INTO venda VALUES (6, "Nadal" ,4823);
+INSERT INTO venda VALUES (7, "Serena" ,5834);
+INSERT INTO venda VALUES (8, "Roger" ,392);
+INSERT INTO venda VALUES (9, "Sharapova" ,1804);
+SELECT vendedor, sum(vendas) FROM venda GROUP BY vendedor;
