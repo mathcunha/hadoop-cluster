@@ -30,10 +30,6 @@
         <value>3</value>
     </property>
 	<property>
-        <name>dfs.datanode.data.dir</name>
-        <value>/home/vagrant/hadoop/datanode-02</value>
-    </property>
-	<property>
         <name>dfs.namenode.servicerpc-address</name>
         <value>192.168.33.10:9000</value>
     </property>
