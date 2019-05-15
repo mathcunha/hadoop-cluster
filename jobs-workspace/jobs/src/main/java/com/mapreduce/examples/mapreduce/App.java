@@ -1,4 +1,4 @@
-package com.mapreduce.examples.jobs;
+package com.mapreduce.examples.mapreduce;
 
 /**
  * Hello world!

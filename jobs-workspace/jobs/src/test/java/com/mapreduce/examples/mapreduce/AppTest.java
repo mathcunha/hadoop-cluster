@@ -1,4 +1,4 @@
-package com.mapreduce.examples.jobs;
+package com.mapreduce.examples.mapreduce;
 
 import static org.junit.Assert.assertTrue;
 
