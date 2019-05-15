@@ -2,4 +2,4 @@
 #rm -rf ~/hadoop/
 #./01-format.sh namenode-01
 ./stop-nodemanager nodemanager-01;./stop-nodemanager nodemanager-02;./stop-resourcemanager resource-manager
-./stop-namenode namenode-01;./stop-datanode datanode-01;./stop-datanode datanode-02
+./stop-datanode datanode-01;./stop-datanode datanode-02;./stop-namenode namenode-01
